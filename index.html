@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="module" src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <input type="text" id="menuName" name="menuNameInput">
-    <input type="text" id="itemContent" name="itemContent">
-    <br><br>
-    <button id="createBTN">create</button><br>
-    <button id="addItemBTN">add Item</button><br>
-    <button id="showBTN">show</button><br>
+    <div id="constructor">
+    <p id="menuText">Menu Constructor</p>
+    <input type="text" id="menuName" name="menuNameInput" placeholder="Menu Name">
+    <button id="createBTN">create Menu</button> <button id="renderBTN">render Menu</button><br><br>
+    <input type="text" id="itemContent" name="itemContent" placeholder="Item Content">
+    <button id="addItemBTN">add Item</button> <button id="addSeparatorBTN">add Separator</button><br><br>
+    <input type="text" id="positionX" name="positionX" placeholder="positionX">
+    <input type="text" id="positionY" name="positionY" placeholder="positionY">
+    <button id="showBTN">show</button>
     <button id="hideBTN">hide</button><br>
+    </div>
     <div id="main">
-
     </div>
 </body>
 </html>

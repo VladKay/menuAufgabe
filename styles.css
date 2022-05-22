@@ -1,0 +1,12 @@
+#constructor{
+    border: 10px solid #969696;
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+    width: 500px;
+    height: 250px;
+}
+#menuText{
+    position: relative;
+    text-align: center;
+}
